@@ -33,7 +33,7 @@ palette:
   info_yellow: "#ffffaf"
   search_blue: "#87afff"
   git_green: "#afafd7"
-  symlink: "#236949"
+  symlink: "#23695e"
   executable: "#00ff00"
   tabfill: "#ebd6ff"
   bg_inactive: "#ffd7af"
