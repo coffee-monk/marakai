@@ -12,7 +12,7 @@ hi comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=it
 hi Constant guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Character guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Number guifg=#b973ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Number guifg=#73479e ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Float guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -95,7 +95,7 @@ hi TSStringRegex guifg=#ff843d ctermfg=209 guibg=NONE ctermbg=NONE gui=italic,bo
 hi TSString guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSStringEscape guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi TSCharacter guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSNumber guifg=#b973ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSNumber guifg=#73479e ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSBoolean guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSFloat guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -133,7 +133,7 @@ hi TSLiteral guifg=#ff843d ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi TSURI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi TSQueryLinterError guifg=#b973ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSQueryLinterError guifg=#73479e ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlEndTag guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -218,11 +218,11 @@ hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cter
 hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignWarning guifg=#b973ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsSignWarning guifg=#73479e ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignHint guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextError guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextWarning guifg=#b973ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsVirtualTextWarning guifg=#73479e ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextHint guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
