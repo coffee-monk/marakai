@@ -22,15 +22,15 @@ hi Conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=
 hi Repeat guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Keyword guifg=#155236 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Keyword guifg=#236949 ctermfg=23 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi Define guifg=#155236 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Define guifg=#236949 ctermfg=23 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi Type guifg=#155236 ctermfg=236 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi Type guifg=#236949 ctermfg=23 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi StorageClass guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -108,7 +108,7 @@ hi TSParameter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSParameterReference guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSProperty guifg=#155236 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSProperty guifg=#236949 ctermfg=23 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -239,7 +239,7 @@ hi NvimTreeGitMerge guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE c
 hi NvimTreeGitRenamed guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitNew guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeIndentMarker guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeSymlink guifg=#155236 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeSymlink guifg=#236949 ctermfg=23 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeRootFolder guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
