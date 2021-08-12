@@ -91,7 +91,7 @@ hi TSPunctSpecial guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cte
 hi TSConstant guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConstMacro guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringRegex guifg=#ff843d ctermfg=209 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi TSStringRegex guifg=#fca103 ctermfg=214 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi TSString guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSStringEscape guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi TSCharacter guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -129,7 +129,7 @@ hi TSStrong guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bol
 hi TSEmphasis guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSUnderline guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTitle guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi TSLiteral guifg=#ff843d ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSLiteral guifg=#fca103 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSURI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -181,7 +181,7 @@ hi CocExplorerBufferFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE g
 hi CocExplorerFileFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferReadonly guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferModified guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferNameVisible guifg=#ff843d ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferNameVisible guifg=#fca103 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileReadonly guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileModified guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileHidden guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
