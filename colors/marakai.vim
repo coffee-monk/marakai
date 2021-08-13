@@ -15,7 +15,7 @@ hi Character guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=italic cterm=
 hi Number guifg=#8787ff ctermfg=105 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Float guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Identifier guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -23,7 +23,7 @@ hi Repeat guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Keyword guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Exception guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Exception guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi Define guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -33,7 +33,7 @@ hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold c
 hi Type guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi StorageClass guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -101,12 +101,12 @@ hi TSFloat guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAttribute guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSFuncBuiltin guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi TSFunction guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSFuncBuiltin guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi TSFunction guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSMethod guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSMethod guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -203,7 +203,7 @@ hi StartifySection guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE ct
 hi StartifyFooter guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKey guifg=#ff80ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKeySeperator guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeyGroup guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeyGroup guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKeyDesc guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffAdded guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffRemoved guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -220,11 +220,11 @@ hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE
 hi LspDiagnosticsSignError guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#8787ff ctermfg=105 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignHint guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsSignHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextError guifg=#70dbff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextWarning guifg=#8787ff ctermfg=105 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextHint guifg=#4dc6ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsVirtualTextHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
