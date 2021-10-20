@@ -160,7 +160,7 @@ highlights:
   TSLabel: "git_green"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "red - b"
-  TSKeywordFunction: "purple - ib"
+  TSKeywordFunction: "cursor_fg - ib"
   TSKeywordOperator: "red - b"
   TSOperator: "red - b"
   TSException: "purple"
