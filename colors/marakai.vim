@@ -114,7 +114,7 @@ hi TSConditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cter
 hi TSRepeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi TSKeywordFunction guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi TSKeywordFunction guifg=#d660e6 ctermfg=170 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi TSKeywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSException guifg=#d660e6 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
