@@ -150,7 +150,7 @@ highlights:
   TSFuncMacro: "executable"
   TSParameter: "bg_inactive"
   TSParameterReference: "light_blue"
-  TSMethod: "blue - ib"
+  TSMethod: "cyan - ib"
   TSField: "light_blue"
   TSProperty: "symlink"
   TSConstructor: "light_blue - b"
