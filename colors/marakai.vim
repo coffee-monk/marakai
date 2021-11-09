@@ -14,9 +14,9 @@ hi String guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=ita
 hi Character guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Number guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Float guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Float guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Repeat guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -31,7 +31,7 @@ hi Title guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi Type guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi StorageClass guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi StorageClass guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -89,7 +89,7 @@ hi TSPunctDelimiter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE c
 hi TSPunctBracket guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctSpecial guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConstant guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstBuiltin guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi TSConstBuiltin guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConstMacro guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringRegex guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi TSString guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -105,11 +105,11 @@ hi TSFuncBuiltin guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm
 hi TSFunction guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSParameterReference guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSParameterReference guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi TSField guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSField guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstructor guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi TSConstructor guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -118,7 +118,7 @@ hi TSKeywordFunction guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE 
 hi TSKeywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSException guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSType guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSType guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStructure guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSInclude guifg=#8787ff ctermfg=105 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -198,7 +198,7 @@ hi StartifyVar guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi StartifyPath guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySlash guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyHeader guifg=#9effff ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyHeader guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFooter guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKey guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
