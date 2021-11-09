@@ -31,7 +31,7 @@ hi Title guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi Type guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi StorageClass guifg=#87e6e6 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi StorageClass guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
