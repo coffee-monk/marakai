@@ -80,7 +80,7 @@ hi TabLineFill guifg=NONE ctermfg=NONE guibg=#ebd6ff ctermbg=225 gui=NONE cterm=
 hi Terminal guifg=#e9ebdd ctermfg=254 guibg=#eb6060 ctermbg=203 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi VisualNOS guifg=#1c1c1c ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WarningMsg guifg=#000000 ctermfg=16 guibg=#00ff00 ctermbg=46 gui=bold cterm=bold
+hi WarningMsg guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi WildMenu guifg=#000000 ctermfg=16 guibg=#75caff ctermbg=117 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSComment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -216,6 +216,7 @@ hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse
 hi GitSignsAdd guifg=#587c0c ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
