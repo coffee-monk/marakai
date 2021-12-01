@@ -293,7 +293,7 @@ highlights:
   GitSignsDelete: "#94151B"
 
   # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
+  LspDiagnosticsUnderlineWarning: "gutter_fg_grey"
   # LspDiagnosticsUnderlineInformation: "yellow"
   LspDiagnosticsUnderlineHint: "grey_blue"
 
@@ -367,7 +367,7 @@ highlights:
   # MoreMsg", {}) " more-prompt
   # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
   # ErrorMsg: "red - br"
-  WarningMsg: "orange - br"
+  WarningMsg: "vivid_blue - br"
   # ModeMsg: "yellow - br"
   # MoreMsg: "green - br"
   # Question: "cyan - br"
