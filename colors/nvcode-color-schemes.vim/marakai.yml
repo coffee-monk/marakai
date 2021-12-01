@@ -367,7 +367,7 @@ highlights:
   # MoreMsg", {}) " more-prompt
   # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
   # ErrorMsg: "red - br"
-  # WarningMsg: "orange - br"
+  WarningMsg: "orange - br"
   # ModeMsg: "yellow - br"
   # MoreMsg: "green - br"
   # Question: "cyan - br"
