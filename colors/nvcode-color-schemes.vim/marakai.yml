@@ -167,7 +167,7 @@ highlights:
   TSType: "light_blue"
   TSTypeBuiltin: "blue"
   TSStructure: "purple"
-  TSInclude: "red - ib"
+  TSInclude: "warning_orange - ib"
   # Variable
   TSVariable: "cursor_bg"
   TSVariableBuiltin: "line_grey"
