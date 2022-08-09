@@ -153,7 +153,7 @@ highlights:
   TSMethod: "cyan - ib"
   TSField: "light_blue"
   TSProperty: "symlink"
-  TSConstructor: "light_blue - b"
+  TSConstructor: "light_blue"
   # Keywords
   TSConditional: "red"
   TSRepeat: "red"
@@ -311,7 +311,7 @@ highlights:
   QuickScopeSecondary: "#eF5F70 - u"
 
   MatchWord: "- - u"
-  MatchParen: "- - u"
+  MatchParen: "#FD015C - b"
   MatchWordCur: "- - u"
   MatchParenCur: "- - u"
 
