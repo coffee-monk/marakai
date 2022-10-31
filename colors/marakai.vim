@@ -114,8 +114,8 @@ hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @label guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi @keyword.return guifg=#d177d1 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @keyword.function guifg=#eb6060 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi @keyword.return guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,italics cterm=bold,italics
+hi @keyword.function guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @exception guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
