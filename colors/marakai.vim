@@ -136,7 +136,7 @@ hi @tagDelimiter guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cter
 hi @queryLinterError guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi htmlEndTag guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlEndTag guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH1 guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH2 guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH3 guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
