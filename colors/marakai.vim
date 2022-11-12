@@ -133,7 +133,7 @@ hi @title guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @literal guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @uRI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi @tag guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @tagDelimiter guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @tag.delimiter guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @queryLinterError guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=bold cterm=bold
