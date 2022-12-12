@@ -110,7 +110,7 @@ hi @method guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=italic,bold cter
 hi @field guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constructor guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @label guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
