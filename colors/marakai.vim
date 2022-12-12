@@ -230,10 +230,10 @@ hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=Orange
 " Diagnostic Virtual Text
-hi DiagnosticVirtualTextError guifg=Red
-hi DiagnosticVirtualTextInfo guifg=White
-hi DiagnosticVirtualTextHint guifg=White
-hi DiagnosticVirtualTextWarn guifg=Orange
+hi DiagnosticVirtualTextError guifg=Red guibg=#2e0f0f
+hi DiagnosticVirtualTextInfo guifg=#777777
+hi DiagnosticVirtualTextHint guifg=#777777
+hi DiagnosticVirtualTextWarn guifg=Orange guibg=#2e0f0f
 " Lsp Diagnostics Underline
 hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
