@@ -262,5 +262,6 @@ hi BufferInactiveMod guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NON
 hi BufferInactiveSign guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#eb6060 ctermfg=203 guibg=#ffd7af ctermbg=223 gui=bold cterm=bold
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineContextChar guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineChar guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineContextChar guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
