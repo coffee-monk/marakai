@@ -84,7 +84,7 @@ hi WarningMsg guifg=#000000 ctermfg=16 guibg=#00ff00 ctermbg=46 gui=bold cterm=b
 hi WildMenu guifg=#000000 ctermfg=16 guibg=#75caff ctermbg=117 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi @error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctDelimiter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctBracket guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctSpecial guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -110,11 +110,11 @@ hi @method guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=italic,bold cter
 hi @field guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constructor guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @label guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi @keyword.return guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi @keyword.return guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @keyword.function guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -217,16 +217,37 @@ hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse
 hi GitSignsAdd guifg=#587c0c ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" Diagnostic
+hi DiagnosticError guifg=Red
+hi DiagnosticInfo guifg=White
+hi DiagnosticInformation guifg=White
+hi DiagnosticHint guifg=White
+hi DiagnosticWarn guifg=Orange
+hi DiagnosticWarning guifg=Orange
+" Diagnostic Underline
+hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=Red
+hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=White
+hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=White
+hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=Orange
+" Diagnostic Virtual Text
+hi DiagnosticVirtualTextError guifg=Red guibg=#2e0f0f
+hi DiagnosticVirtualTextInfo guifg=#777777
+hi DiagnosticVirtualTextHint guifg=#777777
+hi DiagnosticVirtualTextWarn guifg=Orange guibg=#2e0f0f
+" Lsp Diagnostics Underline
 hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" Lsp Diagnostics Sign
 hi LspDiagnosticsSignError guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" Lsp Diagnostics Virtual Text
 hi LspDiagnosticsVirtualTextError guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextWarning guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+"
 hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
