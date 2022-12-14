@@ -7,6 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='marakai'
 
+" Core Color Keys
 hi Normal guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -83,6 +84,9 @@ hi VisualNOS guifg=#1c1c1c ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#000000 ctermfg=16 guibg=#00ff00 ctermbg=46 gui=bold cterm=bold
 hi WildMenu guifg=#000000 ctermfg=16 guibg=#75caff ctermbg=117 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Delimiter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Treesitter Keys
 hi @comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctDelimiter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -135,6 +139,8 @@ hi @uRI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=unde
 hi @tag guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.delimiter guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @queryLinterError guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" HTML
 hi htmlArg guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlEndTag guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -152,6 +158,8 @@ hi htmlTag guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagN guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#87a7e8 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Markdown
 hi markdownBlockquote guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownBold guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownCode guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -175,48 +183,24 @@ hi markdownListMarker guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE
 hi markdownOrderedListMarker guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownRule guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrl guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi CocExplorerIndentLine guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferNameVisible guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileHidden guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerHelpLine guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi EasyMotionTarget2First guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi EasyMotionTarget2Second guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi EasyMotionShade guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyNumber guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySelect guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyBracket guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySpecial guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyVar guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyPath guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyFile guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySlash guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyHeader guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySection guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyFooter guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKey guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeySeperator guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeyGroup guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeyDesc guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Diff
 hi diffAdded guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffRemoved guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffFileId guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi diffFile guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffNewFile guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffOldFile guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Debug
 hi debugPc guifg=NONE ctermfg=NONE guibg=#00e0e0 ctermbg=44 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
+
+" GitSigns
 hi GitSignsAdd guifg=#587c0c ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 " Diagnostic
 hi DiagnosticError guifg=Red
 hi DiagnosticInfo guifg=White
@@ -224,36 +208,36 @@ hi DiagnosticInformation guifg=White
 hi DiagnosticHint guifg=White
 hi DiagnosticWarn guifg=Orange
 hi DiagnosticWarning guifg=Orange
+
 " Diagnostic Underline
 hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=Red
 hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=Orange
+
 " Diagnostic Virtual Text
 hi DiagnosticVirtualTextError guifg=Red guibg=#2e0f0f
 hi DiagnosticVirtualTextInfo guifg=#777777
 hi DiagnosticVirtualTextHint guifg=#777777
 hi DiagnosticVirtualTextWarn guifg=Orange guibg=#2e0f0f
+
 " Lsp Diagnostics Underline
 hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#c2ccff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 " Lsp Diagnostics Sign
 hi LspDiagnosticsSignError guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 " Lsp Diagnostics Virtual Text
 hi LspDiagnosticsVirtualTextError guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextWarning guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextHint guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-"
-hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi MatchParen guifg=#fd015c ctermfg=197 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi MatchWordCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi MatchParenCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+
+" NvimTree
 hi NvimTreeImageFile guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDirty guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDeleted guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -267,6 +251,8 @@ hi NvimTreeFolderIcon guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE
 hi NvimTreeRootFolder guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Buffer
 hi BufferCurrent guifg=#e5d1d1 ctermfg=188 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi BufferCurrentIndex guifg=#75caff ctermfg=117 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi BufferCurrentMod guifg=#e5d1d1 ctermfg=188 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
@@ -282,7 +268,59 @@ hi BufferInactiveIndex guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=N
 hi BufferInactiveMod guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NONE cterm=NONE
 hi BufferInactiveSign guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#eb6060 ctermfg=203 guibg=#ffd7af ctermbg=223 gui=bold cterm=bold
+
+" CoC (Conquer of Completion)
+hi CocExplorerIndentLine guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferNameVisible guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileHidden guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerHelpLine guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" EasyMotion
+hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi EasyMotionTarget2First guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi EasyMotionTarget2Second guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi EasyMotionShade guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Startify
+hi StartifyNumber guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySelect guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyBracket guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySpecial guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyVar guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyPath guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyFile guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySlash guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyHeader guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySection guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyFooter guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Whichkey
+hi WhichKey guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeySeperator guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeyGroup guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeyDesc guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" QuickScope
+hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+
+" MatchWord
+hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi MatchParen guifg=#fd015c ctermfg=197 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi MatchWordCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi MatchParenCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+
+" Codi Virtual Text
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" IndentBlankline
 hi IndentBlanklineChar guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineContextChar guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Delimiter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
