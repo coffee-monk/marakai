@@ -31,10 +31,10 @@ hi Define guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi Type guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi Type guifg=#bd7708 ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi Typedef guifg=Orange ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#5cdcff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -123,8 +123,8 @@ hi @keyword.function guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE 
 hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @exception guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @type guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @typeBuiltin guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @type guifg=#de8f10 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @typeBuiltin guifg=#bd7708 ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @structure guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @include guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @variable guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
