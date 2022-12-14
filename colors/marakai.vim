@@ -91,7 +91,7 @@ hi @comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=i
 hi @error guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctDelimiter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctBracket guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @punctSpecial guifg=#e9ebdd ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @punctuation.special guifg=#ffff00 ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @constant guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constBuiltin guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @constMacro guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
