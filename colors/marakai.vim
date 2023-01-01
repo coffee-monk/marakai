@@ -116,11 +116,11 @@ hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @keyword.return guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @keyword.function guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @exception guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @typeBuiltin guifg=#75caff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @typeBuiltin guifg=#d7d7d7 ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @structure guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @include guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @variable guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -214,9 +214,9 @@ hi diffNewFile guifg=#b9ff69 ctermfg=155 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi diffOldFile guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi debugPc guifg=NONE ctermfg=NONE guibg=#00e0e0 ctermbg=44 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi GitSignsAdd guifg=#587c0c ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsAdd guifg=#00ff00 ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsChange guifg=#00e0e0 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsDelete guifg=#eb6060 ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " Diagnostic
 hi DiagnosticError guifg=Red
 hi DiagnosticInfo guifg=White
