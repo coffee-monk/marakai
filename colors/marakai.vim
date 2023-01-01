@@ -121,7 +121,7 @@ hi @keyword guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=i
 hi @keyword.return guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @keyword.function guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keywordOperator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @operator guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @exception guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type guifg=#de8f10 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @typeBuiltin guifg=#d7d7d7 ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
