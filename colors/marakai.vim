@@ -128,7 +128,7 @@ hi @typeBuiltin guifg=#d7d7d7 ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm
 hi @structure guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @include guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @variable guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @variable.builtin guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @variable.builtin guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @text guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @strong guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @emphasis guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=italic cterm=italic
