@@ -31,7 +31,7 @@ hi Define guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi Type guifg=#a63d3d ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi Type guifg=#a64d3d ctermfg=30 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi Typedef guifg=Orange ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Structure guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -198,7 +198,7 @@ hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse
 
 " GitSigns
 hi GitSignsAdd guifg=#00ff00 ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsChange guifg=#00aaff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsChange guifg=Yellow ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=Red ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Diagnostic
