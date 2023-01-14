@@ -93,7 +93,7 @@ hi @punctDelimiter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE ct
 hi @punctBracket guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @punctuation.special guifg=#ffff00 ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @constant guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @constBuiltin guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @constant.builtin guifg=#00ff00 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constMacro guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @stringRegex guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi @string guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -113,7 +113,7 @@ hi @parameterReference guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NON
 hi @method guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi @field guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @constructor guifg=#b9ff69 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @constructor guifg=#56bf92 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @label guifg=#afafd7 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @conditional guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -129,7 +129,7 @@ hi @structure guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi @include guifg=#7272cf ctermfg=62 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @variable guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.builtin guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi @variable.constructor guifg=#b9ff69 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @variable.constructor guifg=#56bf92 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @text guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @strong guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @emphasis guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=italic cterm=italic
