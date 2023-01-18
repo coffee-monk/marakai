@@ -199,7 +199,7 @@ hi debugBreakpoint guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse
 
 " GitSigns
 hi GitSignsAdd guifg=#00ff00 ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsChange guifg=Yellow ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsChange guifg=#7272cf ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=Red ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Diagnostic
