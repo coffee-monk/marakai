@@ -111,7 +111,7 @@ hi @funcMacro guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi @parameter guifg=#ffd7af ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @parameterReference guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @method guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi @field guifg=#a1c4c4 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @field guifg=#dad1de ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#2b8781 ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constructor guifg=#81dbd8 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @repeat guifg=#eb6060 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
