@@ -334,5 +334,5 @@ hi IndentBlanklineContextChar guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE 
 " Noice
 hi NoiceCmdlinePopupBorder guifg=#7272CF ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NoiceCmdlinePopupBorderLua guifg=#75caff ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NoiceCmdlinePopupBorderHelp guifg=#585858 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NoiceCmdlinePopupBorderHelp guifg=#e5d1d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
