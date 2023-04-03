@@ -332,5 +332,5 @@ hi IndentBlanklineChar guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NON
 hi IndentBlanklineContextChar guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Noice
-hi NoiceCmdlinePopup guifg=#7272CF ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NoiceCmdlinePopupBorder guifg=#7272CF ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
