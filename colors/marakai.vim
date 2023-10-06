@@ -215,10 +215,10 @@ hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=Orange
 
 " Diagnostic Virtual Text
-hi DiagnosticVirtualTextError guifg=Red guibg=#2e0f0f
+hi DiagnosticVirtualTextError guifg=#eb6060
 hi DiagnosticVirtualTextInfo guifg=#777777
 hi DiagnosticVirtualTextHint guifg=#777777
-hi DiagnosticVirtualTextWarn guifg=Orange guibg=#2e0f0f
+hi DiagnosticVirtualTextWarn guifg=Orange
 
 " Lsp Diagnostics Underline
 hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -275,7 +275,7 @@ hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=
 hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterRed guifg=#ef5f70 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterRed guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " EasyMotion
 hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
