@@ -1,5 +1,3 @@
-" Maintainer: marakai
-
 set background=dark
 hi clear
 if exists('syntax_on')
@@ -7,7 +5,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='marakai'
 
-" Core Color Keys
+" Basic Color Keys
 hi Normal guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -270,19 +268,14 @@ hi BufferInactiveMod guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NON
 hi BufferInactiveSign guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#eb6060 ctermfg=203 guibg=#ffd7af ctermbg=223 gui=bold cterm=bold
 
-" CoC (Conquer of Completion)
-hi CocExplorerIndentLine guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileRoot guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileFullPath guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferNameVisible guifg=#de8f10 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileReadonly guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileModified guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileHidden guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerHelpLine guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" RainbowDelimiterRed",
+hi RainbowDelimiterRed guifg=#ef5f70 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterYellow guifg=#FFFF00 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterBlue guifg=#3BAFF5 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 
 " EasyMotion
 hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -290,7 +283,7 @@ hi EasyMotionTarget2First guifg=#d177d1 ctermfg=176 guibg=NONE ctermbg=NONE gui=
 hi EasyMotionTarget2Second guifg=#d75fd7 ctermfg=170 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi EasyMotionShade guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-" EasyMotion
+" Hop
 hi HopNextKey guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi HopNextKey1 guifg=#d177d1 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi HopNextKey2 guifg=#d75fd7 ctermfg=211 guibg=NONE ctermbg=NONE gui=italic cterm=italic
