@@ -269,13 +269,13 @@ hi BufferInactiveSign guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NO
 hi BufferInactiveTarget guifg=#eb6060 ctermfg=203 guibg=#ffd7af ctermbg=223 gui=bold cterm=bold
 
 " RainbowDelimiterRed",
-hi RainbowDelimiterRed guifg=#ef5f70 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterYellow guifg=#FFFF00 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterBlue guifg=#3BAFF5 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterYellow guifg=#FFFF00 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterBlue guifg=#3BAFF5 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterRed guifg=#ef5f70 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " EasyMotion
 hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
