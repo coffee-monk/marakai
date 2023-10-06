@@ -1,3 +1,5 @@
+" Maintainer: marakai
+
 set background=dark
 hi clear
 if exists('syntax_on')
@@ -215,10 +217,10 @@ hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=White
 hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=Orange
 
 " Diagnostic Virtual Text
-hi DiagnosticVirtualTextError guifg=#eb6060
+hi DiagnosticVirtualTextError guifg=Red guibg=#2e0f0f
 hi DiagnosticVirtualTextInfo guifg=#777777
 hi DiagnosticVirtualTextHint guifg=#777777
-hi DiagnosticVirtualTextWarn guifg=Orange
+hi DiagnosticVirtualTextWarn guifg=Orange guibg=#2e0f0f
 
 " Lsp Diagnostics Underline
 hi LspDiagnosticsUnderlineWarning guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -269,13 +271,13 @@ hi BufferInactiveSign guifg=#777777 ctermfg=243 guibg=#ffd7af ctermbg=223 gui=NO
 hi BufferInactiveTarget guifg=#eb6060 ctermfg=203 guibg=#ffd7af ctermbg=223 gui=bold cterm=bold
 
 " RainbowDelimiterRed",
-hi RainbowDelimiterYellow guifg=#FFFF00 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterBlue guifg=#3BAFF5 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi RainbowDelimiterRed guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RainbowDelimiterRed guifg=#ef5f70 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterYellow guifg=#FFFF00 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterBlue guifg=#3BAFF5 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterOrange guifg=#ffd4fe ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterGreen guifg=#bdfcd0 ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterCyan guifg=#a8f9ff ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi RainbowDelimiterViolet guifg=#c5c6fc ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 
 " EasyMotion
 hi EasyMotionTarget guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=bold cterm=bold
