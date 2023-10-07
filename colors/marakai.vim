@@ -98,7 +98,7 @@ hi @string guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=it
 hi @stringEscape guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
 hi @character guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @number guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @boolean guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @boolean guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @float guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @annotation guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @attribute guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
