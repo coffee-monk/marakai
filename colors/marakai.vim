@@ -40,7 +40,7 @@ hi Todo guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=bold,italic cterm=b
 hi Underlined guifg=#00e0e0 ctermfg=44 gui=underline cterm=underline
 hi Cursor guifg=#ff99be ctermfg=211 guibg=#e4e4e4 ctermbg=254 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CursorLineNr guifg=#585858 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi Conceal guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
@@ -321,8 +321,8 @@ hi MatchParenCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline c
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " IndentBlankline
-hi IblIndent guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IblScope guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IblIndent guifg=#222222 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IblScope guifg=#585858 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Noice
 hi NoiceCmdlinePopupBorder guifg=#7272CF ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
