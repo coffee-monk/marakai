@@ -321,9 +321,8 @@ hi MatchParenCur guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline c
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " IndentBlankline
-hi IndentBlanklineChar guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineContextChar guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IblIndent guifg=#444444 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IblIndent guifg=#333333 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IblScope guifg=#777777 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Noice
 hi NoiceCmdlinePopupBorder guifg=#7272CF ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
