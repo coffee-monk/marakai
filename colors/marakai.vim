@@ -65,7 +65,7 @@ hi Question guifg=#ff99be ctermfg=211 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi QuickFixLine guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#000000 ctermfg=16 guibg=#ffff00 ctermbg=226 gui=bold cterm=bold
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellBad guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi SpellBad guifg=#961717 ctermfg=88 guibg=NONE ctermbg=NONE gui=underline cterm=NONE
 hi SpellCap guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellRare guifg=#d7d75f ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
