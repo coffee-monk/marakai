@@ -52,6 +52,7 @@ hi DiffDelete guifg=#000000 ctermfg=16 guibg=#eb6060 ctermbg=203 gui=NONE cterm=
 hi DiffText guifg=#eb6060 ctermfg=203 guibg=#ffff00 ctermbg=226 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#000000 ctermfg=16 guibg=#961717 ctermbg=88 gui=bold cterm=bold
 hi VertSplit guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WinSeparator guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000000 ctermfg=16 guibg=#ff99be ctermbg=211 gui=bold cterm=bold
