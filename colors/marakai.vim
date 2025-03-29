@@ -45,7 +45,7 @@ hi SignColumn guifg=NONE ctermfg=NONE guibg=#1e1e1e ctermbg=234 gui=NONE cterm=N
 hi Conceal guifg=#d7d7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
-hi Directory guifg=#00e0e0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Directory guifg=#00e0e0 ctermfg=44 guibg=#000000 ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#000000 ctermfg=16 guibg=#00ff00 ctermbg=46 gui=bold cterm=bold
 hi DiffChange guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi DiffDelete guifg=#000000 ctermfg=16 guibg=#eb6060 ctermbg=203 gui=NONE cterm=NONE
