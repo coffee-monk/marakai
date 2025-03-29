@@ -6,7 +6,7 @@ endif
 let g:colors_name='marakai'
 
 " Basic Color Keys
-hi Normal guifg=#e5d1d1 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Normal guifg=#e5d1d1 ctermfg=188 guibg=#000000 ctermbg=NONE gui=NONE cterm=NONE
 hi comment guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#d2ffcc ctermfg=194 guibg=NONE ctermbg=NONE gui=italic cterm=italic
